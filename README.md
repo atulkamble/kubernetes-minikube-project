@@ -3,6 +3,11 @@ Create a basic Minikube project to host an application and check its output.
 
 Minikube is a great tool for running a local Kubernetes cluster. Here's a step-by-step guide to create a basic Minikube project to host an application and check its output.
 
+### Enter into Project code 
+```
+git clone https://github.com/atulkamble/kubernetes-minikube-project.git
+cd kubernetes-minikube-project/
+```
 ### Prerequisites
 
 1. **Install Minikube:** Follow the instructions for your operating system from the [official Minikube documentation](https://minikube.sigs.k8s.io/docs/start/).
@@ -15,7 +20,15 @@ Open your terminal and start Minikube:
 ```sh
 minikube start
 ```
-
+### Prerequisite
+```
+sudo yum install git -y
+git config --global user.name "username"
+git config --global user.email "email-id"
+git add .
+git commit -m "update"
+git push origin main
+```
 ### Step 2: Create a Simple Application
 
 Let's use a simple Nginx web server as our application.
